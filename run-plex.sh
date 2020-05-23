@@ -2,4 +2,5 @@
 # https://docs.docker.com/compose/reference/envvars/#/composeconvertwindowspaths
 export COMPOSE_CONVERT_WINDOWS_PATHS=true;
 
-docker-compose -f docker-compose.yml up
+# Run the server
+docker-compose -f docker-compose.yml up -d
