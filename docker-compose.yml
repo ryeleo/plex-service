@@ -10,6 +10,6 @@ services:
     network_mode: host
     volumes:
       - ~/.plex/config:/config
-      - ~/.plex/transcode:/transcode:/transcode
+      - ~/.plex/transcode:/transcode
       - D:\:/data
       
