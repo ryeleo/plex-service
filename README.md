@@ -17,6 +17,10 @@ So I went with the slightely more complicated `bridge` solution, which works wel
 
 From Docker Docs ["Use host networking"](https://docs.docker.com/network/host/) article.
 
+# TODO
+
+* Create startup shortcut via script instaed of hardcoding-it in the git repository. See: [Stack exchange powershell solution.](https://superuser.com/a/836818)
+
 ## Windows Startup 
 
 It is simple to set up a start-up task so that the service will run on start-up. 
